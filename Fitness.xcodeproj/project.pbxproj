@@ -7,18 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3812BFFF282AEB890001A7FF /* HeartRateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812BFFE282AEB890001A7FF /* HeartRateManager.swift */; };
+		3812C003282B0E5A0001A7FF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C002282B0E5A0001A7FF /* InfoView.swift */; };
+		3812C005282B0E990001A7FF /* HeartRateOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C004282B0E990001A7FF /* HeartRateOptionView.swift */; };
+		3812C009282B0EE30001A7FF /* ThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C008282B0EE30001A7FF /* ThumbView.swift */; };
+		3812C00B282B0FB00001A7FF /* OptionMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C00A282B0FB00001A7FF /* OptionMenuView.swift */; };
+		3812C00D282B108C0001A7FF /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C00C282B108C0001A7FF /* BackButtonView.swift */; };
+		3812C00F282B10AB0001A7FF /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C00E282B10AB0001A7FF /* ControlView.swift */; };
+		3812C011282B10E30001A7FF /* VerticalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C010282B10E30001A7FF /* VerticalSlider.swift */; };
+		3812C013282B11250001A7FF /* SliderShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C012282B11250001A7FF /* SliderShape.swift */; };
+		3812C015282B11640001A7FF /* CustomToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C014282B11640001A7FF /* CustomToggleStyle.swift */; };
+		3812C017282B11E10001A7FF /* HexagoanRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C016282B11E10001A7FF /* HexagoanRounded.swift */; };
+		3812C019282B120F0001A7FF /* HexagoanParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C018282B120F0001A7FF /* HexagoanParameters.swift */; };
+		3812C01B282B12380001A7FF /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C01A282B12380001A7FF /* TabBarView.swift */; };
+		3812C01D282B12650001A7FF /* TabWaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C01C282B12650001A7FF /* TabWaveShape.swift */; };
+		3812C01F282B128D0001A7FF /* NeomorphicRectangleInverted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C01E282B128D0001A7FF /* NeomorphicRectangleInverted.swift */; };
+		3812C021282B12B30001A7FF /* NeomorphicRectangleInvertedTopBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812C020282B12B30001A7FF /* NeomorphicRectangleInvertedTopBottom.swift */; };
+		387AAED62829ABC20067CE62 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AAED52829ABC20067CE62 /* Data.swift */; };
+		387AAED82829ABF60067CE62 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AAED72829ABF60067CE62 /* Models.swift */; };
+		387AAEDD2829ADD20067CE62 /* DashboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AAEDC2829ADD20067CE62 /* DashboardManager.swift */; };
+		387AAEDF2829B26F0067CE62 /* TopNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AAEDE2829B26F0067CE62 /* TopNavigationBar.swift */; };
+		387AAEE12829B3050067CE62 /* DashbordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AAEE02829B3040067CE62 /* DashbordView.swift */; };
+		387AAEE4282A4E930067CE62 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AAEE3282A4E930067CE62 /* DataManager.swift */; };
+		387AAEE6282A58B20067CE62 /* GraphBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AAEE5282A58B20067CE62 /* GraphBarView.swift */; };
+		387AAEEA282A8A3F0067CE62 /* HeartRateSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AAEE9282A8A3F0067CE62 /* HeartRateSettingsView.swift */; };
 		38A82A922828364200095D11 /* FitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A82A912828364200095D11 /* FitnessApp.swift */; };
 		38A82A942828364200095D11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A82A932828364200095D11 /* ContentView.swift */; };
 		38A82A962828364300095D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A82A952828364300095D11 /* Assets.xcassets */; };
 		38A82A992828364300095D11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A82A982828364300095D11 /* Preview Assets.xcassets */; };
+		38A82AA0282857B200095D11 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A82A9F282857B200095D11 /* ColorConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3812BFFE282AEB890001A7FF /* HeartRateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateManager.swift; sourceTree = "<group>"; };
+		3812C002282B0E5A0001A7FF /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		3812C004282B0E990001A7FF /* HeartRateOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateOptionView.swift; sourceTree = "<group>"; };
+		3812C008282B0EE30001A7FF /* ThumbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbView.swift; sourceTree = "<group>"; };
+		3812C00A282B0FB00001A7FF /* OptionMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionMenuView.swift; sourceTree = "<group>"; };
+		3812C00C282B108C0001A7FF /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
+		3812C00E282B10AB0001A7FF /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		3812C010282B10E30001A7FF /* VerticalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSlider.swift; sourceTree = "<group>"; };
+		3812C012282B11250001A7FF /* SliderShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderShape.swift; sourceTree = "<group>"; };
+		3812C014282B11640001A7FF /* CustomToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleStyle.swift; sourceTree = "<group>"; };
+		3812C016282B11E10001A7FF /* HexagoanRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagoanRounded.swift; sourceTree = "<group>"; };
+		3812C018282B120F0001A7FF /* HexagoanParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagoanParameters.swift; sourceTree = "<group>"; };
+		3812C01A282B12380001A7FF /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		3812C01C282B12650001A7FF /* TabWaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabWaveShape.swift; sourceTree = "<group>"; };
+		3812C01E282B128D0001A7FF /* NeomorphicRectangleInverted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeomorphicRectangleInverted.swift; sourceTree = "<group>"; };
+		3812C020282B12B30001A7FF /* NeomorphicRectangleInvertedTopBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeomorphicRectangleInvertedTopBottom.swift; sourceTree = "<group>"; };
+		387AAED52829ABC20067CE62 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		387AAED72829ABF60067CE62 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		387AAEDC2829ADD20067CE62 /* DashboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardManager.swift; sourceTree = "<group>"; };
+		387AAEDE2829B26F0067CE62 /* TopNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationBar.swift; sourceTree = "<group>"; };
+		387AAEE02829B3040067CE62 /* DashbordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashbordView.swift; sourceTree = "<group>"; };
+		387AAEE3282A4E930067CE62 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		387AAEE5282A58B20067CE62 /* GraphBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphBarView.swift; sourceTree = "<group>"; };
+		387AAEE9282A8A3F0067CE62 /* HeartRateSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateSettingsView.swift; sourceTree = "<group>"; };
 		38A82A8E2828364200095D11 /* Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A82A912828364200095D11 /* FitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessApp.swift; sourceTree = "<group>"; };
 		38A82A932828364200095D11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		38A82A952828364300095D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38A82A982828364300095D11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38A82A9F282857B200095D11 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +82,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3812C000282B0DA80001A7FF /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				38A82A932828364200095D11 /* ContentView.swift */,
+				387AAEE9282A8A3F0067CE62 /* HeartRateSettingsView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		3812C001282B0E000001A7FF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3812C01A282B12380001A7FF /* TabBarView.swift */,
+				387AAEE5282A58B20067CE62 /* GraphBarView.swift */,
+				387AAEE02829B3040067CE62 /* DashbordView.swift */,
+				387AAEDE2829B26F0067CE62 /* TopNavigationBar.swift */,
+				3812C002282B0E5A0001A7FF /* InfoView.swift */,
+				3812C004282B0E990001A7FF /* HeartRateOptionView.swift */,
+				3812C014282B11640001A7FF /* CustomToggleStyle.swift */,
+				3812C008282B0EE30001A7FF /* ThumbView.swift */,
+				3812C00A282B0FB00001A7FF /* OptionMenuView.swift */,
+				3812C00C282B108C0001A7FF /* BackButtonView.swift */,
+				3812C00E282B10AB0001A7FF /* ControlView.swift */,
+				3812C010282B10E30001A7FF /* VerticalSlider.swift */,
+				3812C012282B11250001A7FF /* SliderShape.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		387AAED92829AD9A0067CE62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3812C000282B0DA80001A7FF /* MainView */,
+				3812C001282B0E000001A7FF /* Components */,
+				387AAEE22829B38F0067CE62 /* Utils */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		387AAEDA2829ADA40067CE62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				387AAED72829ABF60067CE62 /* Models.swift */,
+				387AAED52829ABC20067CE62 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		387AAEDB2829ADAA0067CE62 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				387AAEDC2829ADD20067CE62 /* DashboardManager.swift */,
+				387AAEE3282A4E930067CE62 /* DataManager.swift */,
+				3812BFFE282AEB890001A7FF /* HeartRateManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		387AAEE22829B38F0067CE62 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				38A82A9F282857B200095D11 /* ColorConstants.swift */,
+				3812C016282B11E10001A7FF /* HexagoanRounded.swift */,
+				3812C018282B120F0001A7FF /* HexagoanParameters.swift */,
+				3812C01C282B12650001A7FF /* TabWaveShape.swift */,
+				3812C01E282B128D0001A7FF /* NeomorphicRectangleInverted.swift */,
+				3812C020282B12B30001A7FF /* NeomorphicRectangleInvertedTopBottom.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		38A82A852828364200095D11 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +173,9 @@
 			isa = PBXGroup;
 			children = (
 				38A82A912828364200095D11 /* FitnessApp.swift */,
-				38A82A932828364200095D11 /* ContentView.swift */,
+				387AAED92829AD9A0067CE62 /* Views */,
+				387AAEDA2829ADA40067CE62 /* Model */,
+				387AAEDB2829ADAA0067CE62 /* ViewModel */,
 				38A82A952828364300095D11 /* Assets.xcassets */,
 				38A82A972828364300095D11 /* Preview Content */,
 			);
@@ -137,8 +260,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3812C021282B12B30001A7FF /* NeomorphicRectangleInvertedTopBottom.swift in Sources */,
+				3812C013282B11250001A7FF /* SliderShape.swift in Sources */,
+				38A82AA0282857B200095D11 /* ColorConstants.swift in Sources */,
 				38A82A942828364200095D11 /* ContentView.swift in Sources */,
+				387AAEDD2829ADD20067CE62 /* DashboardManager.swift in Sources */,
+				3812C01F282B128D0001A7FF /* NeomorphicRectangleInverted.swift in Sources */,
+				387AAEE6282A58B20067CE62 /* GraphBarView.swift in Sources */,
+				3812C019282B120F0001A7FF /* HexagoanParameters.swift in Sources */,
+				3812C009282B0EE30001A7FF /* ThumbView.swift in Sources */,
+				3812BFFF282AEB890001A7FF /* HeartRateManager.swift in Sources */,
+				3812C003282B0E5A0001A7FF /* InfoView.swift in Sources */,
+				3812C00D282B108C0001A7FF /* BackButtonView.swift in Sources */,
+				3812C01B282B12380001A7FF /* TabBarView.swift in Sources */,
+				387AAEDF2829B26F0067CE62 /* TopNavigationBar.swift in Sources */,
+				3812C01D282B12650001A7FF /* TabWaveShape.swift in Sources */,
+				3812C00B282B0FB00001A7FF /* OptionMenuView.swift in Sources */,
 				38A82A922828364200095D11 /* FitnessApp.swift in Sources */,
+				387AAED62829ABC20067CE62 /* Data.swift in Sources */,
+				387AAEEA282A8A3F0067CE62 /* HeartRateSettingsView.swift in Sources */,
+				3812C017282B11E10001A7FF /* HexagoanRounded.swift in Sources */,
+				387AAED82829ABF60067CE62 /* Models.swift in Sources */,
+				3812C011282B10E30001A7FF /* VerticalSlider.swift in Sources */,
+				387AAEE4282A4E930067CE62 /* DataManager.swift in Sources */,
+				3812C015282B11640001A7FF /* CustomToggleStyle.swift in Sources */,
+				3812C005282B0E990001A7FF /* HeartRateOptionView.swift in Sources */,
+				3812C00F282B10AB0001A7FF /* ControlView.swift in Sources */,
+				387AAEE12829B3050067CE62 /* DashbordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
